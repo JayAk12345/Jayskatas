@@ -8,6 +8,7 @@ function modulo (a, b) {
 
 function squareRoot (n) {
   // return the square root of n
+  return Math.sqrt(n)
 }
 
 function raiseToPower (m, n) {
