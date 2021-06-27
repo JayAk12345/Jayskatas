@@ -13,6 +13,7 @@ function squareRoot (n) {
 
 function raiseToPower (m, n) {
   // return the result of raising m to the nth power
+  return Math.pow(m, n)
 }
 
 function formatMoney (amount) {
