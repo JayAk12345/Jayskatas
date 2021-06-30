@@ -26,7 +26,10 @@ function formatMoney (amount) {
    * Amounts should always have 2 decimal numbers even if they are zeroes
    * formatMoney(1) => "£1.00"
    */
+   let string = "£" + amount.toFixed(2); 
+   return string
 }
+
 
 function calculateCircleArea (r) {
   // return the area of a circle with radius r
