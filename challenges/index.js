@@ -34,7 +34,12 @@ function formatMoney (amount) {
 function calculateCircleArea (r) {
   // return the area of a circle with radius r
   // round result to 3 decimal numbers
-}
+  let area = Math.pow(r, 2) * Math.PI;
+  let final = area.toFixed(3);
+  let answer = Number(final);
+  return answer
+};
+
 
 function calculateFullTurns (degrees) {
   // return the number of full turns you can make with the provided degrees
