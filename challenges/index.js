@@ -48,9 +48,7 @@ function calculateFullTurns (degrees) {
   while (degrees > 360) {
     degrees = degrees - 360;
     count++;
-    console.log(count);
   };
-  console.log(count, "COUNT");
   return count
 }
 
