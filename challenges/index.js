@@ -38,13 +38,22 @@ function calculateCircleArea (r) {
   let final = area.toFixed(3);
   let answer = Number(final);
   return answer
-};
+}
 
 
 function calculateFullTurns (degrees) {
   // return the number of full turns you can make with the provided degrees
   // 1 full turn === 360 degrees
+  let count = 0;
+  while (degrees > 360) {
+    degrees = degrees - 360;
+    count++;
+    console.log(count);
+  };
+  console.log(count, "COUNT");
+  return count
 }
+
 
 function getLength (str) {
   // return the length of the passed string
