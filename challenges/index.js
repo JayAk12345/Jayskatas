@@ -55,6 +55,7 @@ function calculateFullTurns (degrees) {
 
 function getLength (str) {
   // return the length of the passed string
+return str.length
 }
 
 function putNamesTogether (firstName, lastName) {
