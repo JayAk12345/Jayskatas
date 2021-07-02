@@ -55,12 +55,7 @@ function calculateFullTurns (degrees) {
 
 function getLength (str) {
   // return the length of the passed string
-  let length = str.length;
-  console.log(length);
- // console.log(length, "TEST");
- // let lengthStr = length.toString();
- // console.log(lengthStr, "LENGTH");
-  return length
+return str.length
 }
 
 function putNamesTogether (firstName, lastName) {
