@@ -73,6 +73,9 @@ function capitaliseString (str) {
 function dontShoutSentence (SENTENCE) {
   // return the passed sentence (IN ALL CAPS) in lower case
   // keep the first character capitalised
+let lowerCase = SENTENCE.toLowerCase();
+let answer = lowerCase.charAt(0).toUpperCase() +lowerCase.slice(1);
+return answer
 }
 
 function getMiddle (str) {
