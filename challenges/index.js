@@ -67,7 +67,6 @@ return answer
 function capitaliseString (str) {
   // return the passed string with its first letter capitalised
   let answer = str.charAt(0).toUpperCase() + str.slice(1);
-  console.log(answer, "TEST");
   return answer
 }
 
