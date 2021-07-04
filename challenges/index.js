@@ -80,11 +80,25 @@ return answer
 
 function getMiddle (str) {
   // return the middle (or middle two) character(s) of the passed string
+let answer = "";
+let index = str.length;
+let position = 0;
+if (index % 2 == 0) {
+   position = ((index / 2) - 0.5);
+   answer = (str.charAt(position) + str.charAt(position + 1));
+} else {
+ answer = str[(index / 2) - 0.5];
+};
+return answer
 }
+
 
 function getLastWord (words) {
   // return the last word of a sentence
   // you can assume words doesn't have a period at the end
+
+  // convert to an array, by separating at any space
+  // return final element of array
 }
 
 function hyphenateWords (words) {
