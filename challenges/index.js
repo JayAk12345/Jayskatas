@@ -60,6 +60,8 @@ return str.length
 
 function putNamesTogether (firstName, lastName) {
   // return the first and last names with a space between them
+let answer = firstName + " " + lastName;
+return answer
 }
 
 function capitaliseString (str) {
