@@ -74,9 +74,7 @@ function dontShoutSentence (SENTENCE) {
   // return the passed sentence (IN ALL CAPS) in lower case
   // keep the first character capitalised
 let lowerCase = SENTENCE.toLowerCase();
-console.log(lowerCase, "LOWERCASE");
-let answer = lowerCase.charAt(0).toUpperCase() +lowerCase.slice(1)
-console.log(answer, "ANSWER");
+let answer = lowerCase.charAt(0).toUpperCase() +lowerCase.slice(1);
 return answer
 }
 
