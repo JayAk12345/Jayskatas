@@ -86,18 +86,10 @@ let position = 0;
 if (index % 2 == 0) {
    position = ((index / 2) - 0.5);
    answer = (str.charAt(position) + str.charAt(position + 1));
-   console.log(str.charAt(position))
-
-//  answer = str[position], str[position + 1]
 } else {
  answer = str[(index / 2) - 0.5];
-  console.log(answer, "TEST")
 };
-console.log(answer, "ANSWER");
 return answer
-// divide length by 2
-// return index 
-// if index is not integer, subtract 0.5 and add that index and index +1 
 }
 
 
