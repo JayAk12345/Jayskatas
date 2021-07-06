@@ -97,12 +97,7 @@ function getLastWord (words) {
   // return the last word of a sentence
   // you can assume words doesn't have a period at the end
 let arr = words.split(" ");
-console.log(arr);
-// let postion = (words.length - 1);
-// console.log(arr[], "CHECK");
 return arr[arr.length - 1]
-  // convert to an array, by separating at any space
-  // return final element of array
 }
 
 function hyphenateWords (words) {
