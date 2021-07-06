@@ -101,11 +101,6 @@ return arr[arr.length - 1]
 }
 
 function hyphenateWords (words) {
-  // return the passed string with the spaces replaced by hyphens ("-")
-//let answer = words.replaceAll(" ", "-");
-// console.log(words.replaceAll(" ", "-"));
-//consoe.log(answer, "TEST");
-
 while (words.includes(" ")) {
   words = words.replace(" ", "-")
 };
