@@ -101,7 +101,10 @@ return arr[arr.length - 1]
 }
 
 function hyphenateWords (words) {
-  // return the passed string with the spaces replaced by hyphens ("-")
+while (words.includes(" ")) {
+  words = words.replace(" ", "-")
+};
+return words
 }
 
 function convertToCamelCase (words) {
