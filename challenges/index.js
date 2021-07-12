@@ -110,6 +110,16 @@ return words
 function convertToCamelCase (words) {
   // convert the passed string of space-separated words to camel case
   // camel case looks like this --> camelCaseLooksLikeThis
+  let arr = words.split(" ");
+let answer = [];
+answer.push(arr[0].toLowerCase());
+
+for (let i = 1; i < arr.length; i++) {
+  answer.push(arr[i].charAt(0).toUpperCase());
+  let restOfString = arr[i].slice(1);
+  answer.push(restOfString)
+};
+return answer.join("")
 }
 
 function areValuesEqual (left, right) {
