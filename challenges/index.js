@@ -133,6 +133,11 @@ function areValuesEqual (left, right) {
 
 function areValuesNotEqual (left, right) {
   // return true if the passed arguments are NOT equal
+  if (left != right) {
+    return true
+  } else {
+    return false
+  }
 }
 
 function isFromThe60s (year) {
