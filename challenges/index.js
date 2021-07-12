@@ -124,6 +124,11 @@ return answer.join("")
 
 function areValuesEqual (left, right) {
   // return true if the passed arguments are strictly equal
+  if (left === right) {
+    return true
+  } else {
+    return false
+  }
 }
 
 function areValuesNotEqual (left, right) {
