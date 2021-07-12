@@ -111,23 +111,15 @@ function convertToCamelCase (words) {
   // convert the passed string of space-separated words to camel case
   // camel case looks like this --> camelCaseLooksLikeThis
 let arr = words.split(" ");
-console.log(arr, "TEST");
 let answer = [];
 answer.push(arr[0].toLowerCase());
- // here seems to be not working
+
 for (let i = 1; i < arr.length; i++) {
   answer.push(arr[i].charAt(0).toUpperCase());
   let restOfString = arr[i].slice(1);
-  answer.push(restOfString);
-  console.log(answer);
+  answer.push(restOfString)
 };
-console.log(answer, "TEST 4");
-console.log(answer.join(""));
 return answer.join("")
-
-// into array at spaces
-// for loop to convert 1st char of each word to cap
-// assemble and remove spaces
 }
 
 function areValuesEqual (left, right) {
