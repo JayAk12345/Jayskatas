@@ -151,7 +151,7 @@ function isFromThe60s (year) {
 
 function isEvenLength (string) {
   // return true if string has an even length
-  if (string.length % 2 === 0) {
+  if (string.length % 2 == 0) {
     return true
   } else {
     return false
@@ -160,6 +160,11 @@ function isEvenLength (string) {
 
 function areStringsEqualCaseInsensitive (left, right) {
   // return true if the passed strings are equal ignoring case
+  if (left.toUpperCase() == right.toUpperCase()) {
+    return true
+  } else {
+    return false
+  }
 }
 
 function getEvenNumbers (nums) {
