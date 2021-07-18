@@ -142,6 +142,11 @@ function areValuesNotEqual (left, right) {
 
 function isFromThe60s (year) {
   // return true if the year is in the 1960's
+  if (year >= 1960 && year <= 1969) {
+    return true
+  } else {
+    return false
+  }
 }
 
 function isEvenLength (string) {
