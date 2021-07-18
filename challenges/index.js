@@ -151,6 +151,11 @@ function isFromThe60s (year) {
 
 function isEvenLength (string) {
   // return true if string has an even length
+  if (string.length % 2 === 0) {
+    return true
+  } else {
+    return false
+  }
 }
 
 function areStringsEqualCaseInsensitive (left, right) {
